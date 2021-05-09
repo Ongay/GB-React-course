@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-// import MessageField from './message/messagefield';
 import Form from './form/form';
+import MessageField from "./message/messagefield";
 
 const initialMessages = ["Hello", "Hi"];
 
