@@ -6,8 +6,8 @@ export const MessageField = ({ field }) => {
     console.log(field);
     return (
         <div className='messagefield'>
-            {field.map((item) => {
-                <div>{item}</div>
+            {field.map((item, key) => {
+                return <div key={key}>{item}</div>
             })}
         </div>
     )
